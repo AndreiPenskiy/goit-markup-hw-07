@@ -1,0 +1,139 @@
+.modal-form_textarea {
+  resize: none;
+}
+
+.modal-title {
+  display: block;
+  margin-bottom: 12px;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: $title-color;
+}
+
+.modal-form {
+  display: block;
+}
+
+.modal-form_field {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.modal-form_field--last {
+  margin-bottom: 20px;
+}
+
+.modal-form_input {
+  position: relative;
+  display: block;
+  height: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  padding-left: 35px;
+  cursor: pointer;
+  transition: border 250ms $cubik;
+  outline: none;
+
+  &:focus {
+    border-color: $pretty-color;
+  }
+}
+
+.modal-form_textarea {
+  height: 120px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  padding: 12px 16px;
+  font-size: 12px;
+  transition: border 250ms $cubik;
+  cursor: pointer;
+  outline: none;
+
+  &::placeholder {
+    color: rgba(117, 117, 117, 0.5);
+  }
+}
+
+.modal-form_textarea:focus {
+  border-color: $pretty-color;
+}
+
+.modal-form_label {
+  margin-bottom: 4px;
+  font-size: 12px;
+}
+
+.checkbox_label {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.checkbox_link {
+  color: $pretty-color;
+}
+
+.modal-button_submit {
+  display: block;
+  margin: 0 auto;
+  min-width: 200px;
+  height: 50px;
+  background-color: $pretty-color;
+  border-radius: 4px;
+  color: $white-color;
+  border-color: $pretty-color;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+
+.modal-form_icon {
+  position: absolute;
+  bottom: 14px;
+  left: 15px;
+  width: 12px;
+  height: 12px;
+  transition: fill 250ms $cubik;
+}
+
+.checkbox_label {
+  appearance: none;
+  position: absolute;
+}
+
+.checkbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.checkbox_icon {
+  display: inline-block;
+  width: 16px;
+  height: 15px;
+  border-radius: 4px;
+  border: 2px solid rgba(0, 0, 0, 1);
+  margin-right: 8px;
+}
+
+.checkbox_text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.checkbox_label:checked + .checkbox_icon {
+  background-image: url(/images/icons/modal-icons/iconchek.svg);
+  background-color: $pretty-color;
+  background-size: contain;
+  border-color: $pretty-color;
+}
