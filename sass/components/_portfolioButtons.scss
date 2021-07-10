@@ -1,4 +1,4 @@
-.project-buttons_button {
+.project-buttons__button {
   color: $title-color;
   background-color: $backgrey-color;
   font-family: Roboto;
@@ -29,6 +29,6 @@
   margin-bottom: 50px;
 }
 
-.project-buttons_item:not(:last-child) {
+.project-buttons__item:not(:last-child) {
   margin-right: 8px;
 }

@@ -3,11 +3,11 @@
   justify-content: space-between;
 }
 
-.social-links_link {
+.social-links__link {
   border-radius: 50%;
 }
 
-.social-links_link {
+.social-links__link {
   display: flex;
   padding: 12px;
   fill: $icon-color;
@@ -20,7 +20,7 @@
   }
 }
 
-.social-links_link:focus {
+.social-links__link:focus {
   background-color: $pretty-color;
   fill: $white-color;
 }
@@ -33,7 +33,7 @@
   display: flex;
 }
 
-.team_worker {
+.team__item {
   background-color: $white-color;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -44,7 +44,7 @@
   }
 }
 
-.team_member {
+.team__member {
   color: $title-color;
   font-weight: 500;
   font-size: 16px;
@@ -54,7 +54,7 @@
   text-align: center;
 }
 
-.team_position {
+.team__position {
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;

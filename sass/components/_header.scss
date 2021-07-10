@@ -1,4 +1,4 @@
-.logo_web {
+.logo__web {
   color: $pretty-color;
 }
 
@@ -13,8 +13,8 @@
   letter-spacing: 0.03em;
 }
 
-.site-nav_link,
-.contact_link {
+.site-nav__link,
+.contact__link {
   text-decoration: none;
   color: #212121;
   padding: 32px 0;
@@ -26,12 +26,12 @@
   }
 }
 
-.site-nav_link--current {
+.site-nav__link--current {
   color: $pretty-color;
   position: relative;
 }
 
-.site-nav_link--current::after {
+.site-nav__link--current::after {
   content: "";
 
   position: absolute;
@@ -53,7 +53,7 @@
   letter-spacing: 0.02em;
 }
 
-.site-nav_item:not(:last-child) {
+.site-nav__item:not(:last-child) {
   margin-right: 50px;
 }
 
@@ -62,7 +62,7 @@
   align-items: center;
 }
 
-.contact_link {
+.contact__link {
   color: $accenttext-color;
   font-weight: 500;
   font-size: 14px;
@@ -70,12 +70,12 @@
   letter-spacing: 0.02em;
 }
 
-.contact_link {
+.contact__link {
   display: inline-flex;
   align-items: center;
 }
 
-.contact_item {
+.contact__item {
   margin-left: 50px;
 }
 
@@ -91,7 +91,7 @@
   justify-content: space-between;
 }
 
-.contact_icon {
+.contact__icon {
   fill: currentColor;
   margin-right: 10px;
 }

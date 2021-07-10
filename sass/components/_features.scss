@@ -1,4 +1,4 @@
-.features-list_icon {
+.features-list__icon {
   display: flex;
   padding: 25px 0;
   justify-content: center;
@@ -7,7 +7,7 @@
   margin-bottom: 30px;
 }
 
-.features-list_title {
+.features-list__title {
   color: $title-color;
   font-weight: 700;
   font-size: 14px;
@@ -17,7 +17,7 @@
   margin-bottom: 10px;
 }
 
-.features-list_text {
+.features-list__text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -27,6 +27,6 @@
   display: flex;
 }
 
-.features-list_item:not(:last-child) {
+.features-list__item:not(:last-child) {
   margin-right: 30px;
 }

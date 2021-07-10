@@ -1,4 +1,4 @@
-.projects-item_title {
+.projects-item__title {
   color: $title-color;
   font-weight: 700;
   font-size: 18px;
@@ -6,7 +6,7 @@
   letter-spacing: 0.06em;
   margin-bottom: 4px;
 }
-.projects-item_text {
+.projects-item__text {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
@@ -19,7 +19,7 @@
   margin: -15px;
 }
 
-.portfolio_list {
+.portfolio__list {
   flex-basis: calc((100% - 90px) / 3);
   margin: 15px;
   background-color: $white-color;
@@ -44,7 +44,7 @@
   overflow: hidden;
 }
 
-.card-thumb_overlay {
+.card-thumb__overlay {
   position: absolute;
   display: flex;
   align-items: center;
@@ -64,8 +64,8 @@
   padding: 24px;
 }
 
-.portfolio-link:hover .card-thumb_overlay,
-.portfolio-link:focus .card-thumb_overlay {
+.portfolio-link:hover .card-thumb__overlay,
+.portfolio-link:focus .card-thumb__overlay {
   transform: translateY(0%);
   opacity: 1;
 }
